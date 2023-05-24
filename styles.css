@@ -1,4 +1,4 @@
-   body {
+ body {
             margin: auto 0;
             font-size: 16pt;
             background: linear-gradient(to right, orange, pink, red, brown);
@@ -51,5 +51,9 @@
         @media only screen and (max-width: 600px) {
             li {
                 padding: 10px;
+                font-size: 0.7em;
+            }
+            .home {
+                padding-left: 30px
             }
         }
