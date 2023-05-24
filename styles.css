@@ -1,0 +1,51 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16pt;
+}
+body {
+    background: linear-gradient(to right, orange, pink, red, brown);
+    color: aliceblue;
+}
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+li {
+    list-style-type: none;
+    padding: 20px;
+    font-size: 1.2em;
+}
+.home {
+    display: flex;
+    margin-right: auto;
+}
+.color-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 4px;
+}
+.colors, .buttons, .color-value{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 4px solid gray;
+}
+input[type="color"] {
+    margin: 20px;
+}
+button {
+    border: none;
+    width: 65px;
+    height: 65px;
+    margin: 15px;
+    border-radius: 50%;
+    background-color: brown;
+    color: aliceblue;
+    font-size: 0.8em;
+}
+h3 {
+    text-align: left;
+}
