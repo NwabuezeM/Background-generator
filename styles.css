@@ -8,6 +8,9 @@ body {
     background: linear-gradient(to right, orange, pink, red, brown);
     color: aliceblue;
 }
+nav {
+width: 100vw;
+}
 ul {
     display: flex;
     align-items: center;
